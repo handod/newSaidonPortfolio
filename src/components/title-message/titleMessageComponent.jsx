@@ -29,31 +29,31 @@ const MyTitleMessage = styled.h1`
 `;
 
 const TitleMessage = () => {
-    return (
-        <MyTitleMessage>
-            <div className="titleMessage">
-                <div className="heading">
-                    <div className="main text-center mb-3">
-                        Hi! I'm
+  return (
+    <MyTitleMessage>
+      <div className="titleMessage">
+        <div className="heading">
+          <div className="main text-center mb-3">
+            Hi! I'm
           <br />
-                        <span>
-                            <strong>David Saidon</strong>
-                        </span>
-                    </div>
-                    <div className="sub">
-                    <Typewriter
-                        options={{
-                            strings: ['Software Engineer.', 'Web Developer.', 'Computers Person.'],
-                            autoStart: true,
-                            loop: true,
-                            delay: 100
-                        }}
-                    />
-                    </div>
-                    </div>
-                    </div>
-        </MyTitleMessage>
-    );
+            <span>
+              <strong>David Saidon</strong>
+            </span>
+          </div>
+          <div className="sub">
+            <Typewriter
+              options={{
+                strings: ['Software Engineer.', 'Web Developer.', 'Computers Person.'],
+                autoStart: true,
+                loop: true,
+                delay: 100
+              }}
+            />
+          </div>
+        </div>
+      </div>
+    </MyTitleMessage>
+  );
 }
 
 export default TitleMessage;

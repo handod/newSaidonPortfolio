@@ -1,5 +1,7 @@
 import React from 'react';
+import './scrollDownStyle.css'
 import styled from "styled-components";
+
 
 const MyScroll = styled.div`
   position: relative;
@@ -11,10 +13,8 @@ const MyScroll = styled.div`
   background-color: transparent;
   font-weight: bold;
   text-shadow: 1px 1px #45a29e;
-  color: #fff;
   .turn {
     cursor: pointer;
-    transform: rotate(90deg);
   }
 `;
 
@@ -22,7 +22,7 @@ const ScrollDown = () => {
     return (
         <MyScroll>
             <div className="turn">
-                <span> &gt; </span>
+            <a href="#about"><i class="downArrowScroller fas fa-chevron-down"></i></a>
             </div>
         </MyScroll>
     );
