@@ -15,8 +15,8 @@ import Education from './pages/education/educationComponent';
 import ProjectsTimeline from './components/projects-timeline/projectsTimeline';
 import Contact from './pages/contact-form/contactFormComponent';
 import FooterPanel from './components/footer/footerComponent';
-import Particles from "react-particles-js";
-import { particlesOptions } from "./particlesOptions";
+//import Particles from "react-particles-js";
+//import { particlesOptions } from "./particlesOptions";
 
 
 const App = () => {
@@ -26,9 +26,9 @@ const App = () => {
       <NavbarComponent />
       <CarouselComponent />
       <TitleMessage />
-      <Particles
+      {/*<Particles
         className="particles particles-box"
-        params={particlesOptions} />
+        params={particlesOptions} />*/}
 
       {/*About Section */}
       <div>
