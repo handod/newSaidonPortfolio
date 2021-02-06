@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/newSaidonPortfolio/static/css/main.bc483a9f.chunk.css",
-    "main.js": "/newSaidonPortfolio/static/js/main.14e5fea0.chunk.js",
-    "main.js.map": "/newSaidonPortfolio/static/js/main.14e5fea0.chunk.js.map",
+    "main.js": "/newSaidonPortfolio/static/js/main.9a9cfbcd.chunk.js",
+    "main.js.map": "/newSaidonPortfolio/static/js/main.9a9cfbcd.chunk.js.map",
     "runtime-main.js": "/newSaidonPortfolio/static/js/runtime-main.2b8e80f4.js",
     "runtime-main.js.map": "/newSaidonPortfolio/static/js/runtime-main.2b8e80f4.js.map",
     "static/js/2.c3e17c0c.chunk.js": "/newSaidonPortfolio/static/js/2.c3e17c0c.chunk.js",
@@ -64,6 +64,6 @@
     "static/js/runtime-main.2b8e80f4.js",
     "static/js/2.c3e17c0c.chunk.js",
     "static/css/main.bc483a9f.chunk.css",
-    "static/js/main.14e5fea0.chunk.js"
+    "static/js/main.9a9cfbcd.chunk.js"
   ]
 }
