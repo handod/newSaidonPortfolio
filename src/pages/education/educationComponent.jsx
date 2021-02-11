@@ -15,7 +15,7 @@ const Education = () => {
                     <Tilt options={{ max: 25 }}>
                         <Card>
                             <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
-                                <Card.Img variant="top" className="img-resize" src={L_HIT} alt="Accenture logo" />
+                                <Card.Img variant="top" src={L_HIT} alt="Accenture logo" />
                             </Card.Header>
                             <Card.Body className="d-flex justify-content-center flex-column">
                                 <div>
