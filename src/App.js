@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import Slide from 'react-reveal/Slide';
 import { Parallax } from "react-parallax";
 import Container from 'react-bootstrap/Container';
-import BgImage from "./assets/img/parallex/background.webp";
+import BgImage from "./assets/img/parallex/background2.webp";
 
 //components
 import NavbarComponent from "./components/my-navbar/navbarComponent";
@@ -32,9 +32,9 @@ const App = () => {
 
       {/*About Section */}
       <div>
-        <Parallax bgImage={BgImage} blur={{ min: -30, max: 30 }}
+        <Parallax bgImage={BgImage}
           bgImageAlt=""
-          strength={-200}>
+          strength={1000}>
           <Container className="container-box rounded">
             <Fade left duration={800}>
               <About />
