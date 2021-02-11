@@ -12,6 +12,11 @@
     box-shadow: 1px 1px 1px #222;
     animation: moveDown 0.5s ease-in-out;
   }
+
+  .toggler{
+    position: absolute;
+    right: 15px;
+  }
   
   @keyframes moveDown {
     from {

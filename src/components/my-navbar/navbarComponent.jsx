@@ -41,7 +41,7 @@ const NavbarComponent = () => {
   <Navbar.Brand href="#home">
       <img className="logo" src={Logo} alt='Saidon Portfolio Logo' />
   </Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" className="toggler" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto">
       <Nav.Link href="#home">Home</Nav.Link>
