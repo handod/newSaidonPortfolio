@@ -485,11 +485,6 @@ const ProjectsTimeline = () => {
                             </div>
                             <div className="d-flex justify-content-between flex-nowrap text-center">
                                 <UrlButton
-                                    href="https://handod.github.io/saidonKeeperApp/"
-                                    target="_blank">
-                                    SEE LIVE
-                                </UrlButton>
-                                <UrlButton
                                     href="https://github.com/handod/saidonKeeperApp"
                                     target="_blank">
                                     SOURCE CODE
