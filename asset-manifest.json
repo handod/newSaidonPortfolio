@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/newSaidonPortfolio/static/css/main.a5527966.chunk.css",
-    "main.js": "/newSaidonPortfolio/static/js/main.b06a029c.chunk.js",
-    "main.js.map": "/newSaidonPortfolio/static/js/main.b06a029c.chunk.js.map",
+    "main.css": "/newSaidonPortfolio/static/css/main.f9f1046d.chunk.css",
+    "main.js": "/newSaidonPortfolio/static/js/main.d41cc651.chunk.js",
+    "main.js.map": "/newSaidonPortfolio/static/js/main.d41cc651.chunk.js.map",
     "runtime-main.js": "/newSaidonPortfolio/static/js/runtime-main.2b8e80f4.js",
     "runtime-main.js.map": "/newSaidonPortfolio/static/js/runtime-main.2b8e80f4.js.map",
     "static/js/2.c3e17c0c.chunk.js": "/newSaidonPortfolio/static/js/2.c3e17c0c.chunk.js",
     "static/js/2.c3e17c0c.chunk.js.map": "/newSaidonPortfolio/static/js/2.c3e17c0c.chunk.js.map",
     "index.html": "/newSaidonPortfolio/index.html",
-    "static/css/main.a5527966.chunk.css.map": "/newSaidonPortfolio/static/css/main.a5527966.chunk.css.map",
+    "static/css/main.f9f1046d.chunk.css.map": "/newSaidonPortfolio/static/css/main.f9f1046d.chunk.css.map",
     "static/js/2.c3e17c0c.chunk.js.LICENSE.txt": "/newSaidonPortfolio/static/js/2.c3e17c0c.chunk.js.LICENSE.txt",
     "static/media/DavidSaidonCV.3b908ae3.pdf": "/newSaidonPortfolio/static/media/DavidSaidonCV.3b908ae3.pdf",
     "static/media/atom.929d8794.svg": "/newSaidonPortfolio/static/media/atom.929d8794.svg",
@@ -63,7 +63,7 @@
   "entrypoints": [
     "static/js/runtime-main.2b8e80f4.js",
     "static/js/2.c3e17c0c.chunk.js",
-    "static/css/main.a5527966.chunk.css",
-    "static/js/main.b06a029c.chunk.js"
+    "static/css/main.f9f1046d.chunk.css",
+    "static/js/main.d41cc651.chunk.js"
   ]
 }
