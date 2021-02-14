@@ -175,12 +175,12 @@ const ProjectsTimeline = () => {
                             </div>
                             <div className="d-flex justify-content-between flex-nowrap text-center">
                                 <UrlButton
-                                    href="https://handod.github.io/quote-generator/"
+                                    href="https://react-my-burger-saidon.web.app/"
                                     target="_blank">
                                     SEE LIVE
                                 </UrlButton>
                                 <UrlButton
-                                    href="https://github.com/handod/quote-generator"
+                                    href="https://github.com/handod/burgerBuilder"
                                     target="_blank">
                                     SOURCE CODE
                                 </UrlButton>
