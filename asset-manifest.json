@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/newSaidonPortfolio/static/css/main.ebbbb77d.chunk.css",
-    "main.js": "/newSaidonPortfolio/static/js/main.8a9a1097.chunk.js",
-    "main.js.map": "/newSaidonPortfolio/static/js/main.8a9a1097.chunk.js.map",
+    "main.css": "/newSaidonPortfolio/static/css/main.beb7a794.chunk.css",
+    "main.js": "/newSaidonPortfolio/static/js/main.c31bfc38.chunk.js",
+    "main.js.map": "/newSaidonPortfolio/static/js/main.c31bfc38.chunk.js.map",
     "runtime-main.js": "/newSaidonPortfolio/static/js/runtime-main.2b8e80f4.js",
     "runtime-main.js.map": "/newSaidonPortfolio/static/js/runtime-main.2b8e80f4.js.map",
-    "static/js/2.c3e17c0c.chunk.js": "/newSaidonPortfolio/static/js/2.c3e17c0c.chunk.js",
-    "static/js/2.c3e17c0c.chunk.js.map": "/newSaidonPortfolio/static/js/2.c3e17c0c.chunk.js.map",
+    "static/js/2.42e724f4.chunk.js": "/newSaidonPortfolio/static/js/2.42e724f4.chunk.js",
+    "static/js/2.42e724f4.chunk.js.map": "/newSaidonPortfolio/static/js/2.42e724f4.chunk.js.map",
     "index.html": "/newSaidonPortfolio/index.html",
-    "static/css/main.ebbbb77d.chunk.css.map": "/newSaidonPortfolio/static/css/main.ebbbb77d.chunk.css.map",
-    "static/js/2.c3e17c0c.chunk.js.LICENSE.txt": "/newSaidonPortfolio/static/js/2.c3e17c0c.chunk.js.LICENSE.txt",
+    "static/css/main.beb7a794.chunk.css.map": "/newSaidonPortfolio/static/css/main.beb7a794.chunk.css.map",
+    "static/js/2.42e724f4.chunk.js.LICENSE.txt": "/newSaidonPortfolio/static/js/2.42e724f4.chunk.js.LICENSE.txt",
     "static/media/DavidSaidonCV.3b908ae3.pdf": "/newSaidonPortfolio/static/media/DavidSaidonCV.3b908ae3.pdf",
     "static/media/atom.929d8794.svg": "/newSaidonPortfolio/static/media/atom.929d8794.svg",
     "static/media/contactFormStyle.css": "/newSaidonPortfolio/static/media/background.48c0b661.webp",
-    "static/media/background2.5652ccf4.webp": "/newSaidonPortfolio/static/media/background2.5652ccf4.webp",
+    "static/media/App.css": "/newSaidonPortfolio/static/media/background3.67ca6ce2.webp",
     "static/media/bootstrap-4.997c463d.svg": "/newSaidonPortfolio/static/media/bootstrap-4.997c463d.svg",
     "static/media/burgerBuilderProject.95d011d6.webp": "/newSaidonPortfolio/static/media/burgerBuilderProject.95d011d6.webp",
     "static/media/c-lang.2f52df38.svg": "/newSaidonPortfolio/static/media/c-lang.2f52df38.svg",
@@ -62,8 +62,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2b8e80f4.js",
-    "static/js/2.c3e17c0c.chunk.js",
-    "static/css/main.ebbbb77d.chunk.css",
-    "static/js/main.8a9a1097.chunk.js"
+    "static/js/2.42e724f4.chunk.js",
+    "static/css/main.beb7a794.chunk.css",
+    "static/js/main.c31bfc38.chunk.js"
   ]
 }
