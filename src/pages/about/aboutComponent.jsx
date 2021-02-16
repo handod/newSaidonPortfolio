@@ -36,7 +36,7 @@ const About = () => {
                             </Row>
 
                             <Row>
-                                <Col className="d-flex justify-content-center flex-wrap">
+                                <Col className="d-flex justify-content-center flex-wrap my-details">
                                     <div>
                                         <a href="#contact">
                                             <Button className="m-2" variant="outline-primary">Let's Talk</Button>

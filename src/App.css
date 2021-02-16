@@ -19,3 +19,8 @@ hr {
     height: 100%;
     z-index: 1;
   }
+
+  .parallax {
+    background-image: url("./assets/img/parallex/background3.webp");
+    background-attachment: fixed;
+  }
