@@ -15,6 +15,7 @@ import L_KEEPER_APP from "../../assets/img/projects/reactNoteProject.webp";
 import L_Old_Portfolio from "../../assets/img/projects/oldPortfolioProject.webp";
 import L_Saidon_Quoter from "../../assets/img/projects/quoteGeneratorProject.webp";
 import L_Burger_Builder from "../../assets/img/projects/burgerBuilderProject.webp";
+import L_Weather_App from "../../assets/img/projects/weatherProject.webp";
 
 
 // skills
@@ -37,6 +38,33 @@ import L_JQUERY from "../../assets/img/skills/jquery.svg";
 import './projectsTimelineStyle.css';
 
 const porjects = [{
+    title: 'Weather App',
+    img: L_Weather_App,
+    date: '04/07/2020',
+    description: 'Simple Node Project That Lets You Get Information On the Current Weather In Your Location.',
+    features: ['NodeJS', 'Partials', 'RESTful API'],
+    techs: [{
+        name: 'HTML5',
+        skillLogo: L_HTML5,
+    },{
+        name: 'CSS3',
+        skillLogo: L_CSS3,
+    },{
+        name: 'JavaScript',
+        skillLogo: L_JAVASCRIPT,
+    },{
+        name: 'NodeJS',
+        skillLogo: L_NODE_JS,
+    }],
+    urls: [{
+        link: 'https://saidon-weather-app.herokuapp.com/',
+        type: 'SEE LIVE'
+    },
+    {
+        link: 'https://github.com/handod/weather-website',
+        type: 'SOURCE CODE'
+    }]
+},{
     title: 'Burger Builder',
     img: L_Burger_Builder,
     date: '18/05/2020',
