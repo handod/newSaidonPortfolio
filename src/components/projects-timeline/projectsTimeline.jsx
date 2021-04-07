@@ -16,6 +16,7 @@ import L_Old_Portfolio from "../../assets/img/projects/oldPortfolioProject.webp"
 import L_Saidon_Quoter from "../../assets/img/projects/quoteGeneratorProject.webp";
 import L_Burger_Builder from "../../assets/img/projects/burgerBuilderProject.webp";
 import L_Weather_App from "../../assets/img/projects/weatherProject.webp";
+import L_Chat_App from "../../assets/img/projects/chatApp.webp";
 
 
 // skills
@@ -34,25 +35,60 @@ import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_C from "../../assets/img/skills/c-lang.svg";
 import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
 import L_JQUERY from "../../assets/img/skills/jquery.svg";
+import L_EXPRESS from "../../assets/img/skills/express.svg";
 
 import './projectsTimelineStyle.css';
 
 const porjects = [{
+    title: 'Chat App',
+    img: L_Chat_App,
+    date: '04/02/2021',
+    description: 'Cool Node Room Chat App Project That Lets You To Communicate With Your Friends Online.',
+    features: ['NodeJS', 'JQuery', 'Express'],
+    techs: [{
+        name: 'HTML5',
+        skillLogo: L_HTML5,
+    }, {
+        name: 'CSS3',
+        skillLogo: L_CSS3,
+    }, {
+        name: 'JavaScript',
+        skillLogo: L_JAVASCRIPT,
+    }, {
+        name: 'NodeJS',
+        skillLogo: L_NODE_JS,
+    },{
+        name: 'Express',
+        skillLogo: L_EXPRESS
+    },
+    {
+        name: 'Jquery',
+        skillLogo: L_JQUERY
+    }],
+    urls: [{
+        link: 'https://saidon-chat-app.herokuapp.com/',
+        type: 'SEE LIVE'
+    },
+    {
+        link: 'https://github.com/handod/SaidonChatApp',
+        type: 'SOURCE CODE'
+    }]
+}, {
     title: 'Weather App',
     img: L_Weather_App,
-    date: '04/07/2020',
+    date: '04/12/2020',
     description: 'Simple Node Project That Lets You Get Information On the Current Weather In Your Location.',
     features: ['NodeJS', 'Partials', 'RESTful API'],
     techs: [{
         name: 'HTML5',
         skillLogo: L_HTML5,
-    },{
+    }, {
         name: 'CSS3',
         skillLogo: L_CSS3,
-    },{
+    }, {
         name: 'JavaScript',
         skillLogo: L_JAVASCRIPT,
-    },{
+    }, {
         name: 'NodeJS',
         skillLogo: L_NODE_JS,
     }],
@@ -64,34 +100,34 @@ const porjects = [{
         link: 'https://github.com/handod/weather-website',
         type: 'SOURCE CODE'
     }]
-},{
+}, {
     title: 'Burger Builder',
     img: L_Burger_Builder,
-    date: '18/05/2020',
+    date: '18/07/2020',
     description: 'React Project That Lets You Build Your Own Burger And Order It.',
     features: ['React Project', 'React Router', 'Validations', 'Redux', 'Authentication', 'Testing', 'Animations', 'Hooks'],
     techs: [{
         name: 'HTML5',
         skillLogo: L_HTML5,
-    },{
+    }, {
         name: 'CSS3',
         skillLogo: L_CSS3,
-    },{
+    }, {
         name: 'JavaScript',
         skillLogo: L_JAVASCRIPT,
-    },{
+    }, {
         name: 'React',
         skillLogo: L_REACT,
-    },{
+    }, {
         name: 'Redux',
         skillLogo: L_REDUX,
-    },{
+    }, {
         name: 'React Bootstrap',
         skillLogo: L_REACT_BOOTSTRAP,
-    },{
+    }, {
         name: 'React Router',
         skillLogo: L_REACT_ROUTER,
-    },{
+    }, {
         name: 'Styled Components',
         skillLogo: L_STYLED_COMPONENTS,
     }],
@@ -109,18 +145,18 @@ const porjects = [{
     date: '25/04/2020',
     description: 'JavaScript Quote Generator Project with API Use.',
     features: ['Using Quotes API',
-    'With Loading Animation',
-    'Respoisive And Fun For Mobile Use'],
+        'With Loading Animation',
+        'Respoisive And Fun For Mobile Use'],
     techs: [{
         name: 'HTML5',
         skillLogo: L_HTML5,
-    },{
+    }, {
         name: 'CSS3',
         skillLogo: L_CSS3,
-    },{
+    }, {
         name: 'JavaScript',
         skillLogo: L_JAVASCRIPT,
-    },{
+    }, {
         name: 'Bootstrap',
         skillLogo: L_BOOTSTRAP4,
     }],
@@ -132,7 +168,7 @@ const porjects = [{
         link: 'https://github.com/handod/quote-generator',
         type: 'SOURCE CODE'
     }]
-},{
+}, {
     title: 'Old Portfolio',
     img: L_Old_Portfolio,
     date: '14/04/2020',
@@ -143,16 +179,16 @@ const porjects = [{
     techs: [{
         name: 'HTML5',
         skillLogo: L_HTML5,
-    },{
+    }, {
         name: 'CSS3',
         skillLogo: L_CSS3,
-    },{
+    }, {
         name: 'JavaScript',
         skillLogo: L_JAVASCRIPT,
-    },{
+    }, {
         name: 'Bootstrap',
         skillLogo: L_BOOTSTRAP4,
-    },{
+    }, {
         name: 'JQuery',
         skillLogo: L_JQUERY,
     }],
@@ -164,7 +200,7 @@ const porjects = [{
         link: 'https://github.com/handod/DavidSaidonPortfolio',
         type: 'SOURCE CODE'
     }]
-},{
+}, {
     title: 'React Keeper App',
     img: L_KEEPER_APP,
     date: '08/04/2020',
@@ -175,22 +211,22 @@ const porjects = [{
     techs: [{
         name: 'HTML5',
         skillLogo: L_HTML5,
-    },{
+    }, {
         name: 'CSS3',
         skillLogo: L_CSS3,
-    },{
+    }, {
         name: 'JavaScript',
         skillLogo: L_JAVASCRIPT,
-    },{
+    }, {
         name: 'NodeJS',
         skillLogo: L_NODE_JS,
     }],
     urls: [
-    {
-        link: 'https://github.com/handod/saidonKeeperApp',
-        type: 'SOURCE CODE'
-    }]
-},{
+        {
+            link: 'https://github.com/handod/saidonKeeperApp',
+            type: 'SOURCE CODE'
+        }]
+}, {
     title: 'To Do List',
     img: L_TO_DO_LIST,
     date: '25/03/2020',
@@ -200,22 +236,22 @@ const porjects = [{
     techs: [{
         name: 'HTML5',
         skillLogo: L_HTML5,
-    },{
+    }, {
         name: 'CSS3',
         skillLogo: L_CSS3,
-    },{
+    }, {
         name: 'JavaScript',
         skillLogo: L_JAVASCRIPT,
-    },{
+    }, {
         name: 'NodeJS',
         skillLogo: L_NODE_JS,
     }],
     urls: [
-    {
-        link: 'https://github.com/handod/toDoListNodeJS',
-        type: 'SOURCE CODE'
-    }]
-},{
+        {
+            link: 'https://github.com/handod/toDoListNodeJS',
+            type: 'SOURCE CODE'
+        }]
+}, {
     title: 'Simon Game',
     img: L_SIMON_GAME,
     date: '14/03/2020',
@@ -227,25 +263,25 @@ const porjects = [{
     techs: [{
         name: 'HTML5',
         skillLogo: L_HTML5,
-    },{
+    }, {
         name: 'CSS3',
         skillLogo: L_CSS3,
-    },{
+    }, {
         name: 'JavaScript',
         skillLogo: L_JAVASCRIPT,
-    },{
+    }, {
         name: 'JQuery',
         skillLogo: L_JQUERY,
     }],
     urls: [
-    {
-        link: 'https://handod.github.io/simonGame/',
-        type: 'SEE LIVE'
-    },{
-        link: 'https://github.com/handod/simonGame',
-        type: 'SOURCE CODE'
-    }]
-},{
+        {
+            link: 'https://handod.github.io/simonGame/',
+            type: 'SEE LIVE'
+        }, {
+            link: 'https://github.com/handod/simonGame',
+            type: 'SOURCE CODE'
+        }]
+}, {
     title: 'Drum Kit',
     img: L_DRUM_KIT,
     date: '18/02/2020',
@@ -256,22 +292,22 @@ const porjects = [{
     techs: [{
         name: 'HTML5',
         skillLogo: L_HTML5,
-    },{
+    }, {
         name: 'CSS3',
         skillLogo: L_CSS3,
-    },{
+    }, {
         name: 'JavaScript',
         skillLogo: L_JAVASCRIPT,
     }],
     urls: [
-    {
-        link: 'https://handod.github.io/drumKitWebsite/',
-        type: 'SEE LIVE'
-    },{
-        link: 'https://github.com/handod/drumKitWebsite/',
-        type: 'SOURCE CODE'
-    }]
-},{
+        {
+            link: 'https://handod.github.io/drumKitWebsite/',
+            type: 'SEE LIVE'
+        }, {
+            link: 'https://github.com/handod/drumKitWebsite/',
+            type: 'SOURCE CODE'
+        }]
+}, {
     title: 'Dice Roller',
     img: L_DICE_ROLLER,
     date: '03/02/2020',
@@ -282,22 +318,22 @@ const porjects = [{
     techs: [{
         name: 'HTML5',
         skillLogo: L_HTML5,
-    },{
+    }, {
         name: 'CSS3',
         skillLogo: L_CSS3,
-    },{
+    }, {
         name: 'JavaScript',
         skillLogo: L_JAVASCRIPT,
     }],
     urls: [
-    {
-        link: 'https://handod.github.io/diceWebsite/',
-        type: 'SEE LIVE'
-    },{
-        link: 'https://github.com/handod/diceWebsite',
-        type: 'SOURCE CODE'
-    }]
-},{
+        {
+            link: 'https://handod.github.io/diceWebsite/',
+            type: 'SEE LIVE'
+        }, {
+            link: 'https://github.com/handod/diceWebsite',
+            type: 'SOURCE CODE'
+        }]
+}, {
     title: 'HTML & CSS With Bootstrap Website',
     img: L_TINJEW,
     date: '15/01/2020',
@@ -308,22 +344,22 @@ const porjects = [{
     techs: [{
         name: 'HTML5',
         skillLogo: L_HTML5,
-    },{
+    }, {
         name: 'CSS3',
         skillLogo: L_CSS3,
-    },{
+    }, {
         name: 'Bootstrap',
         skillLogo: L_BOOTSTRAP4,
     }],
     urls: [
-    {
-        link: 'https://handod.github.io/tinJewWebsite/',
-        type: 'SEE LIVE'
-    },{
-        link: 'https://github.com/handod/tinJewWebsite',
-        type: 'SOURCE CODE'
-    }]
-},{
+        {
+            link: 'https://handod.github.io/tinJewWebsite/',
+            type: 'SEE LIVE'
+        }, {
+            link: 'https://github.com/handod/tinJewWebsite',
+            type: 'SOURCE CODE'
+        }]
+}, {
     title: 'C Compiler',
     img: L_C_COMPILER,
     date: '05/04/2020',
@@ -335,11 +371,11 @@ const porjects = [{
         skillLogo: L_C,
     }],
     urls: [
-    {
-        link: 'https://github.com/handod/c.compiler',
-        type: 'SOURCE CODE'
-    }]
-},{
+        {
+            link: 'https://github.com/handod/c.compiler',
+            type: 'SOURCE CODE'
+        }]
+}, {
     title: 'Virtual Friend',
     img: L_VIRTUAL_FRIEND,
     date: '17/10/2019',
@@ -351,15 +387,15 @@ const porjects = [{
     techs: [{
         name: 'Java',
         skillLogo: L_JAVA,
-    },{
+    }, {
         name: 'JUnit',
         skillLogo: L_JUNIT,
     }],
     urls: [
-    {
-        link: 'https://github.com/handod/JavaSiteProject',
-        type: 'SOURCE CODE'
-    }]
+        {
+            link: 'https://github.com/handod/JavaSiteProject',
+            type: 'SOURCE CODE'
+        }]
 }];
 
 const ProjectsTimeline = () => {
@@ -368,66 +404,66 @@ const ProjectsTimeline = () => {
             <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
             <Timeline>
                 <Events>
-            {porjects.map(project => (
-                    <ImageEvent
-                        date={project.date}
-                        className="text-center"
-                        text={project.title}
-                        src={project.img}
-                        alt={project.title}>
-                        <div className="d-flex justify-content-between flex-column mt-1">
-                            <div>
-                                <Accordion>
-                                    <Card>
-                                        <Accordion.Toggle
-                                            as={Card.Header}
-                                            eventKey="0"
-                                            className="p-2 text-center accordian-main">
-                                            PROJECT DETAILS
+                    {porjects.map(project => (
+                        <ImageEvent
+                            date={project.date}
+                            className="text-center"
+                            text={project.title}
+                            src={project.img}
+                            alt={project.title}>
+                            <div className="d-flex justify-content-between flex-column mt-1">
+                                <div>
+                                    <Accordion>
+                                        <Card>
+                                            <Accordion.Toggle
+                                                as={Card.Header}
+                                                eventKey="0"
+                                                className="p-2 text-center accordian-main">
+                                                PROJECT DETAILS
                                         </Accordion.Toggle>
 
-                                        <Accordion.Collapse eventKey="0" className="text-left">
-                                            <Card.Body>
-                                                <strong>Description: </strong>{project.description}
+                                            <Accordion.Collapse eventKey="0" className="text-left">
+                                                <Card.Body>
+                                                    <strong>Description: </strong>{project.description}
                                                     <hr />
-                                                <strong>Features:</strong>
-                                                <ul className="list-styles pt-1">
-                                                    {project.features.map(feature => <li>{feature}</li>)}
-                                                </ul>
-                                                <hr />
-                                                <strong>Tech used:</strong>
-                                                <ul>
-                                                {project.techs.map(tech => (<li>
-                                                        <span className="p-2">
-                                                            <Image
-                                                                src={tech.skillLogo}
-                                                                alt={tech.name}
-                                                                rounded
-                                                                className="image-style m-1">
-                                                            </Image>{" "}
-                                                            {tech.name}
-                                                        </span>
-                                                    </li>))} 
-                                                </ul>
-                                            </Card.Body>
-                                        </Accordion.Collapse>
-                                    </Card>
-                                </Accordion>
+                                                    <strong>Features:</strong>
+                                                    <ul className="list-styles pt-1">
+                                                        {project.features.map(feature => <li>{feature}</li>)}
+                                                    </ul>
+                                                    <hr />
+                                                    <strong>Tech used:</strong>
+                                                    <ul>
+                                                        {project.techs.map(tech => (<li>
+                                                            <span className="p-2">
+                                                                <Image
+                                                                    src={tech.skillLogo}
+                                                                    alt={tech.name}
+                                                                    rounded
+                                                                    className="image-style m-1">
+                                                                </Image>{" "}
+                                                                {tech.name}
+                                                            </span>
+                                                        </li>))}
+                                                    </ul>
+                                                </Card.Body>
+                                            </Accordion.Collapse>
+                                        </Card>
+                                    </Accordion>
+                                </div>
+                                <div className="d-flex justify-content-between flex-nowrap text-center">
+                                    {project.urls.map(url => (
+                                        <UrlButton
+                                            href={url.link}
+                                            target="_blank">
+                                            {url.type}
+                                        </UrlButton>
+                                    ))}
+                                </div>
                             </div>
-                            <div className="d-flex justify-content-between flex-nowrap text-center">
-                            {project.urls.map(url => (
-                                <UrlButton
-                                    href={url.link}
-                                    target="_blank">
-                                    {url.type}
-                                </UrlButton>
-                            ))}
-                            </div>
-                        </div>
-                    </ImageEvent>
+                        </ImageEvent>
                     ))}
-                    </Events>
-            </Timeline> 
+                </Events>
+            </Timeline>
         </div>
     );
 };
