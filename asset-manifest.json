@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/newSaidonPortfolio/static/css/main.beb7a794.chunk.css",
-    "main.js": "/newSaidonPortfolio/static/js/main.548e28eb.chunk.js",
-    "main.js.map": "/newSaidonPortfolio/static/js/main.548e28eb.chunk.js.map",
+    "main.js": "/newSaidonPortfolio/static/js/main.033f2a6c.chunk.js",
+    "main.js.map": "/newSaidonPortfolio/static/js/main.033f2a6c.chunk.js.map",
     "runtime-main.js": "/newSaidonPortfolio/static/js/runtime-main.2b8e80f4.js",
     "runtime-main.js.map": "/newSaidonPortfolio/static/js/runtime-main.2b8e80f4.js.map",
     "static/js/2.88aa7e6c.chunk.js": "/newSaidonPortfolio/static/js/2.88aa7e6c.chunk.js",
@@ -38,7 +38,7 @@
     "static/media/logow.968101da.jpg": "/newSaidonPortfolio/static/media/logow.968101da.jpg",
     "static/media/material-ui-1.fd510ed8.svg": "/newSaidonPortfolio/static/media/material-ui-1.fd510ed8.svg",
     "static/media/mongodb.d89a6eeb.svg": "/newSaidonPortfolio/static/media/mongodb.d89a6eeb.svg",
-    "static/media/mssql.18f84630.svg": "/newSaidonPortfolio/static/media/mssql.18f84630.svg",
+    "static/media/mySql.3fe6f4a4.svg": "/newSaidonPortfolio/static/media/mySql.3fe6f4a4.svg",
     "static/media/nodejs.52cbf9a8.svg": "/newSaidonPortfolio/static/media/nodejs.52cbf9a8.svg",
     "static/media/oldPortfolioProject.fca1608a.webp": "/newSaidonPortfolio/static/media/oldPortfolioProject.fca1608a.webp",
     "static/media/profile.5fceb42f.jpeg": "/newSaidonPortfolio/static/media/profile.5fceb42f.jpeg",
@@ -66,6 +66,6 @@
     "static/js/runtime-main.2b8e80f4.js",
     "static/js/2.88aa7e6c.chunk.js",
     "static/css/main.beb7a794.chunk.css",
-    "static/js/main.548e28eb.chunk.js"
+    "static/js/main.033f2a6c.chunk.js"
   ]
 }
