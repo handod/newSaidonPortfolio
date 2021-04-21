@@ -14,7 +14,7 @@ import L_JQUERY from "../../assets/img/skills/jquery.svg";
 import L_C_PLUS_PLUS from "../../assets/img/skills/c-plus-plus.svg";
 import L_C from "../../assets/img/skills/c-lang.svg";
 import L_MONGODB from "../../assets/img/skills/mongodb.svg";
-import L_MSSQL from "../../assets/img/skills/mssql.svg";
+import L_MYSQL from "../../assets/img/skills/mySql.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_HEROKU from "../../assets/img/skills/heroku.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
@@ -157,10 +157,10 @@ export const skills = {
     ],
     databases: [
         {
-            link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
-            imgAltText: "MS-SQL",
-            imgSrc: L_MSSQL,
-            skillName: "MS-SQL",
+            link: "https://www.mysql.com/",
+            imgAltText: "MySQL",
+            imgSrc: L_MYSQL,
+            skillName: "MySQL",
         },
         {
             link: "https://www.mongodb.com/",

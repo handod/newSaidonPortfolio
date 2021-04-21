@@ -16,7 +16,7 @@ const Contact = () => {
                         {/** buttons */}
                         <div className="m-2">
                             <a href="mailto:handod2010@gmail.com" target="_blank" rel="David Saidon">
-                                <Button variant="outline-danger" title="akjha96@gmail.com">
+                                <Button variant="outline-danger" title="handod2010@gmail.com">
                                     <i className="fas fa-envelope-square"></i> Email Me
                                 </Button>
                             </a>
