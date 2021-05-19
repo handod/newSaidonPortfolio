@@ -13,6 +13,7 @@ import L_Burger_Builder from "../../assets/img/projects/burgerBuilderProject.web
 import L_Weather_App from "../../assets/img/projects/weatherProject.webp";
 import L_Chat_App from "../../assets/img/projects/chatApp.webp";
 import L_Guess_Number from "../../assets/img/projects/guessNumberProject.webp";
+import L_Indecision_App from "../../assets/img/projects/indecisionAppProject.webp";
 
 // skills
 import L_REACT from "../../assets/img/skills/react.svg";
@@ -32,6 +33,33 @@ import L_JQUERY from "../../assets/img/skills/jquery.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
 
 const projects = [{
+    title: 'Indecision App',
+    img: L_Indecision_App,
+    date: '24/04/2021',
+    description: 'Indecision App Built In React That Let The Computer Decide Which Task You Will Have Next.',
+    features: ['JavaScript', 'React', 'HTML', 'CSS'],
+    techs: [{
+        name: 'HTML5',
+        skillLogo: L_HTML5,
+    }, {
+        name: 'CSS3',
+        skillLogo: L_CSS3,
+    }, {
+        name: 'JavaScript',
+        skillLogo: L_JAVASCRIPT,
+    }, {
+        name: 'React',
+        skillLogo: L_REACT,
+    }],
+    urls: [{
+        link: 'https://handod.github.io/saidonIndecisionApp/',
+        type: 'SEE LIVE'
+    },
+    {
+        link: 'https://github.com/handod/saidonIndecisionApp',
+        type: 'SOURCE CODE'
+    }]
+}, {
     title: 'Guess Saidon Number',
     img: L_Guess_Number,
     date: '11/03/2021',
@@ -55,7 +83,7 @@ const projects = [{
         link: 'https://github.com/handod/guessMyNumber',
         type: 'SOURCE CODE'
     }]
-},{
+}, {
     title: 'Chat App',
     img: L_Chat_App,
     date: '04/02/2021',
@@ -73,7 +101,7 @@ const projects = [{
     }, {
         name: 'NodeJS',
         skillLogo: L_NODE_JS,
-    },{
+    }, {
         name: 'Express',
         skillLogo: L_EXPRESS
     },
