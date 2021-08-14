@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/newSaidonPortfolio/static/css/main.beb7a794.chunk.css",
-    "main.js": "/newSaidonPortfolio/static/js/main.17b20cdd.chunk.js",
-    "main.js.map": "/newSaidonPortfolio/static/js/main.17b20cdd.chunk.js.map",
+    "main.js": "/newSaidonPortfolio/static/js/main.94e30d29.chunk.js",
+    "main.js.map": "/newSaidonPortfolio/static/js/main.94e30d29.chunk.js.map",
     "runtime-main.js": "/newSaidonPortfolio/static/js/runtime-main.2b8e80f4.js",
     "runtime-main.js.map": "/newSaidonPortfolio/static/js/runtime-main.2b8e80f4.js.map",
     "static/js/2.88aa7e6c.chunk.js": "/newSaidonPortfolio/static/js/2.88aa7e6c.chunk.js",
@@ -61,12 +61,13 @@
     "static/media/virtualFriendProject.fee7c685.webp": "/newSaidonPortfolio/static/media/virtualFriendProject.fee7c685.webp",
     "static/media/visual-studio-code.4c8ce698.svg": "/newSaidonPortfolio/static/media/visual-studio-code.4c8ce698.svg",
     "static/media/visual-studio.ca6b39f4.svg": "/newSaidonPortfolio/static/media/visual-studio.ca6b39f4.svg",
-    "static/media/weatherProject.ed372277.webp": "/newSaidonPortfolio/static/media/weatherProject.ed372277.webp"
+    "static/media/weatherProject.ed372277.webp": "/newSaidonPortfolio/static/media/weatherProject.ed372277.webp",
+    "static/media/workersMernAppProject.ce107532.webp": "/newSaidonPortfolio/static/media/workersMernAppProject.ce107532.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.2b8e80f4.js",
     "static/js/2.88aa7e6c.chunk.js",
     "static/css/main.beb7a794.chunk.css",
-    "static/js/main.17b20cdd.chunk.js"
+    "static/js/main.94e30d29.chunk.js"
   ]
 }
