@@ -34,34 +34,7 @@ import L_JQUERY from "../../assets/img/skills/jquery.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
 //import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 
-const projects = [/*{
-    title: 'Workers Mern App',
-    img: L_Workers_Mern_App,
-    date: '15/07/2021',
-    description: 'Workers Management Mern App that lets you sign up as an admin and perform CRUD operations on your workers.',
-    features: ['JavaScript', 'React', 'NodeJs', 'MongoDB'],
-    techs: [{
-        name: 'JavaScript',
-        skillLogo: L_JAVASCRIPT,
-    }, {
-        name: 'React',
-        skillLogo: L_REACT,
-    }, {
-        name: 'NodeJs',
-        skillLogo: L_NODE_JS,
-    }, {
-        name: 'MongoDB',
-        skillLogo: L_MONGODB,
-    }],
-    urls: [{
-        link: 'https://handod.github.io/saidon-workers-mern-app/',
-        type: 'SEE LIVE'
-    },
-    {
-        link: 'https://github.com/handod/saidon-workers-mern-app/tree/master',
-        type: 'SOURCE CODE'
-    }]
-},*/{
+const projects = [{
     title: 'Indecision App',
     img: L_Indecision_App,
     date: '24/04/2021',
