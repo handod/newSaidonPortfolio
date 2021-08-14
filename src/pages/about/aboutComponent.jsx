@@ -31,7 +31,7 @@ const About = () => {
             I have many hobbies, but the top of all is Creativity.<br />
             As I see myself as a Software Developer, I continue my path as a creator of interesting and exciting new things. <br /><br />
             I'm always updated to new technologies and keep up the pace every single day, that is why I also see my self as a Knowledge Gainer. <br />
-            I am currently looking for a junior software developer role, where I can implement all that is written above.<br /><br />
+            I am currently working as a Full Stack Developer, where I can implement all that is written above.<br /><br />
             You are more than welcome to keep explore my portfolio, exciting things are yet to come...</h6>
                             </Row>
 
