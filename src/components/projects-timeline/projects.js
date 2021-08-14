@@ -37,7 +37,7 @@ import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 const projects = [{
     title: 'Workers Mern App',
     img: L_Workers_Mern_App,
-    date: '11/05/2021',
+    date: '15/07/2021',
     description: 'Workers Management Mern App that lets you sign up as an admin and perform CRUD operations on your workers.',
     features: ['JavaScript', 'React', 'NodeJs', 'MongoDB'],
     techs: [{
