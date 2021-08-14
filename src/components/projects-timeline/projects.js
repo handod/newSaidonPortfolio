@@ -14,7 +14,7 @@ import L_Weather_App from "../../assets/img/projects/weatherProject.webp";
 import L_Chat_App from "../../assets/img/projects/chatApp.webp";
 import L_Guess_Number from "../../assets/img/projects/guessNumberProject.webp";
 import L_Indecision_App from "../../assets/img/projects/indecisionAppProject.webp";
-import L_Workers_Mern_App from "../../assets/img/projects/workersMernAppProject.webp";
+//import L_Workers_Mern_App from "../../assets/img/projects/workersMernAppProject.webp";
 
 // skills
 import L_REACT from "../../assets/img/skills/react.svg";
@@ -32,9 +32,9 @@ import L_C from "../../assets/img/skills/c-lang.svg";
 import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
 import L_JQUERY from "../../assets/img/skills/jquery.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
-import L_MONGODB from "../../assets/img/skills/mongodb.svg";
+//import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 
-const projects = [{
+const projects = [/*{
     title: 'Workers Mern App',
     img: L_Workers_Mern_App,
     date: '15/07/2021',
@@ -61,7 +61,7 @@ const projects = [{
         link: 'https://github.com/handod/saidon-workers-mern-app/tree/master',
         type: 'SOURCE CODE'
     }]
-},{
+},*/{
     title: 'Indecision App',
     img: L_Indecision_App,
     date: '24/04/2021',
